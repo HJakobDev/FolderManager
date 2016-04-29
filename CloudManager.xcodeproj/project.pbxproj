@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB21B12A1CD399B500D9B0BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21B1291CD399B500D9B0BD /* AppDelegate.m */; };
+		BB21B12D1CD399B500D9B0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21B12C1CD399B500D9B0BD /* main.m */; };
+		BB21B12F1CD399B500D9B0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB21B12E1CD399B500D9B0BD /* Assets.xcassets */; };
+		BB21B1321CD399B500D9B0BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB21B1301CD399B500D9B0BD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB21B1251CD399B500D9B0BD /* CloudManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB21B1281CD399B500D9B0BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB21B1291CD399B500D9B0BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB21B12C1CD399B500D9B0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB21B12E1CD399B500D9B0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB21B1311CD399B500D9B0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB21B1331CD399B500D9B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB21B1221CD399B500D9B0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB21B11C1CD399B500D9B0BD = {
+			isa = PBXGroup;
+			children = (
+				BB21B1271CD399B500D9B0BD /* CloudManager */,
+				BB21B1261CD399B500D9B0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB21B1261CD399B500D9B0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB21B1251CD399B500D9B0BD /* CloudManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB21B1271CD399B500D9B0BD /* CloudManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB21B1281CD399B500D9B0BD /* AppDelegate.h */,
+				BB21B1291CD399B500D9B0BD /* AppDelegate.m */,
+				BB21B12E1CD399B500D9B0BD /* Assets.xcassets */,
+				BB21B1301CD399B500D9B0BD /* MainMenu.xib */,
+				BB21B1331CD399B500D9B0BD /* Info.plist */,
+				BB21B12B1CD399B500D9B0BD /* Supporting Files */,
+			);
+			path = CloudManager;
+			sourceTree = "<group>";
+		};
+		BB21B12B1CD399B500D9B0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB21B12C1CD399B500D9B0BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB21B1241CD399B500D9B0BD /* CloudManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB21B1361CD399B500D9B0BD /* Build configuration list for PBXNativeTarget "CloudManager" */;
+			buildPhases = (
+				BB21B1211CD399B500D9B0BD /* Sources */,
+				BB21B1221CD399B500D9B0BD /* Frameworks */,
+				BB21B1231CD399B500D9B0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudManager;
+			productName = CloudManager;
+			productReference = BB21B1251CD399B500D9B0BD /* CloudManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB21B11D1CD399B500D9B0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henrik Jakob";
+				TargetAttributes = {
+					BB21B1241CD399B500D9B0BD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BB21B1201CD399B500D9B0BD /* Build configuration list for PBXProject "CloudManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB21B11C1CD399B500D9B0BD;
+			productRefGroup = BB21B1261CD399B500D9B0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB21B1241CD399B500D9B0BD /* CloudManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB21B1231CD399B500D9B0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB21B12F1CD399B500D9B0BD /* Assets.xcassets in Resources */,
+				BB21B1321CD399B500D9B0BD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB21B1211CD399B500D9B0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB21B12D1CD399B500D9B0BD /* main.m in Sources */,
+				BB21B12A1CD399B500D9B0BD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB21B1301CD399B500D9B0BD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB21B1311CD399B500D9B0BD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB21B1341CD399B500D9B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB21B1351CD399B500D9B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB21B1371CD399B500D9B0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloudManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.hjakobdev.CloudManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB21B1381CD399B500D9B0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CloudManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.hjakobdev.CloudManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB21B1201CD399B500D9B0BD /* Build configuration list for PBXProject "CloudManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB21B1341CD399B500D9B0BD /* Debug */,
+				BB21B1351CD399B500D9B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB21B1361CD399B500D9B0BD /* Build configuration list for PBXNativeTarget "CloudManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB21B1371CD399B500D9B0BD /* Debug */,
+				BB21B1381CD399B500D9B0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB21B11D1CD399B500D9B0BD /* Project object */;
+}
