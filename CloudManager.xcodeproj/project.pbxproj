@@ -11,6 +11,7 @@
 		BB21B12D1CD399B500D9B0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21B12C1CD399B500D9B0BD /* main.m */; };
 		BB21B12F1CD399B500D9B0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB21B12E1CD399B500D9B0BD /* Assets.xcassets */; };
 		BB21B1321CD399B500D9B0BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB21B1301CD399B500D9B0BD /* MainMenu.xib */; };
+		BB21B13B1CD39C3F00D9B0BD /* PreferencePaneController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21B13A1CD39C3F00D9B0BD /* PreferencePaneController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		BB21B12E1CD399B500D9B0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB21B1311CD399B500D9B0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BB21B1331CD399B500D9B0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB21B1391CD39C3F00D9B0BD /* PreferencePaneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencePaneController.h; sourceTree = "<group>"; };
+		BB21B13A1CD39C3F00D9B0BD /* PreferencePaneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencePaneController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 				BB21B1291CD399B500D9B0BD /* AppDelegate.m */,
 				BB21B12E1CD399B500D9B0BD /* Assets.xcassets */,
 				BB21B1301CD399B500D9B0BD /* MainMenu.xib */,
+				BB21B1391CD39C3F00D9B0BD /* PreferencePaneController.h */,
+				BB21B13A1CD39C3F00D9B0BD /* PreferencePaneController.m */,
 				BB21B1331CD399B500D9B0BD /* Info.plist */,
 				BB21B12B1CD399B500D9B0BD /* Supporting Files */,
 			);
@@ -102,6 +107,7 @@
 				TargetAttributes = {
 					BB21B1241CD399B500D9B0BD = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T5EXRF586S;
 					};
 				};
 			};
@@ -142,6 +148,7 @@
 			files = (
 				BB21B12D1CD399B500D9B0BD /* main.m in Sources */,
 				BB21B12A1CD399B500D9B0BD /* AppDelegate.m in Sources */,
+				BB21B13B1CD39C3F00D9B0BD /* PreferencePaneController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 				BB21B1381CD399B500D9B0BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
